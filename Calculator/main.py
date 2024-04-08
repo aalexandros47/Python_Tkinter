@@ -4,7 +4,7 @@ class Calculator:
     def __init__(self, interface):
         # Adjust the window size and title
         interface.title("Calculator")
-        interface.geometry('360x400')  # Adjusted for better layout
+        interface.geometry('360x400')  
         interface.config(bg='black')
         interface.resizable(False, False)
 
